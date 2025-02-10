@@ -2,7 +2,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Produk from "./components/produk";
+import Produk from "./components/Produk";
 import Whyus from "./components/Whyus";
 
 const App = () => {
