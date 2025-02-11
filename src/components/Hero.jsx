@@ -1,7 +1,7 @@
 import { IoIosArrowForward } from "react-icons/io";
 const Hero = () => {
   return (
-    <div className="">
+    <div id="home" className="pb-20">
       <div className="flex justify-center items-center gap-20 sm:px-20 px-2 flex-wrap sm:flex-nowrap">
         <div className="max-w-2xl sm:pt-40 pt-20">
           <h1 className="sm:text-7xl text-4xl font-bold text-[#004B24]">
@@ -31,13 +31,12 @@ const Hero = () => {
             </span>
           </a>
         </div>
-        <div className="h-1/2 rounded-xl sm:pt-20 relative ">
+        <div className="h-xl rounded-xl sm:pt-20 relative ">
           <img
-            className=" rounded-xl object-cover w-full"
-            src="/img/hero.png"
+            className=" rounded-xl object-cover h-full"
+            src="/img/hero.jpg"
             alt=""
           />
-          <span className="border-b-2 w-full absolute bottom-0"></span>
         </div>
       </div>
     </div>

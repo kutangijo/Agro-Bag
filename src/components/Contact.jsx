@@ -4,24 +4,31 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <div className="mx-20 bg-green-300 rounded-t-4xl pb-10">
-      <div className="p-10 flex justify-center items-center gap-10 ">
+    <div
+      id="contact"
+      className="sm:mx-20 mx-0 bg-green-300 rounded-t-4xl pb-10"
+    >
+      <div className="sm:p-10 p-5 flex justify-center items-center gap-10 flex-wrap sm:flex-nowrap">
         <div>
-          <h1 className="text-5xl font-bold text-[#004B24]">
+          <h1 className="sm:text-5xl text-xl font-bold text-[#004B24]">
             Hubungi Kami Sekarang
           </h1>
-          <p className="mt-5 w-2xl">
+          <p className="sm:mt-5 mt-2 sm:w-2xl">
             Butuh informasi lengkap, dukungan, atau tertarik menjalin kemitraan?
             Jangan ragu untuk menghubungi kami! Tim kami siap membantu dengan
             sepenuh hati. Kami percaya bahwa setiap pertanyaan adalah langkah
             awal menuju solusi terbaik.{" "}
           </p>
         </div>
-        <div className="basis-5xl">
-          <img src="/img/globe.png" alt="" className="w-full" />
+        <div className="basis-5xl ">
+          <img
+            src="/img/globe.png"
+            alt=""
+            className="w-full hover:-translate-y-5 transition-all"
+          />
         </div>
       </div>
-      <div className="flex justify-center items-center gap-3">
+      <div className="flex justify-center items-center gap-3 flex-col sm:flex-row">
         <a
           href="https://mail.google.com/mail/?view=cm&fs=1&to=samisuryaperkasa@gmail.com"
           target="_blank"

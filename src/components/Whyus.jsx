@@ -8,7 +8,7 @@ import { IoShieldCheckmarkSharp } from "react-icons/io5";
 const images = [
   "/img/slider/plantbag1.png",
   "/img/slider/plantbag2.png",
-  "/img/plant2.png",
+  "/img/slider/plantbag3.png",
 ];
 
 const PlantBagSlider = () => {
@@ -23,8 +23,8 @@ const PlantBagSlider = () => {
   };
 
   return (
-    <div className="">
-      <div className="bg-[#004B24] flex sm:flex-row flex-col justify-center sm:gap-40 gap-10 sm:py-5">
+    <div id="whyus" className="">
+      <div className="bg-[#004B24] flex sm:flex-row flex-col justify-center sm:gap-40 gap-10 sm:py-5 py-5">
         <div className="flex flex-col items-center ">
           <RiMedalFill size={80} color="#fff" />
           <h1 className="text-white text-xl font-bold">Best Quality</h1>
@@ -48,7 +48,7 @@ const PlantBagSlider = () => {
         </h1>
         <div className="flex flex-col sm:flex-row justify-center items-center sm:gap-20 sm:mt-10 mx-10">
           <div className="w-full sm:w-72 ">
-            <Slider {...settings}>
+            <Slider className="text-black" {...settings}>
               {images.map((src, index) => (
                 <div
                   key={index}

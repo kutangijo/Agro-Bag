@@ -1,6 +1,9 @@
 import { useState } from "react";
 
 const Navbar = () => {
+  const scrollToSection = (id) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+  };
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -8,25 +11,31 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center ">
         <div className="text-[#004B24] text-lg font-bold">Agro Bag</div>
         <div className="hidden md:flex space-x-12">
-          <a
-            href="#home"
-            className="text-[#004B24] font-semibold hover:text-[#70E000] hover:scale-105 transition-all"
+          <button
+            onClick={() => scrollToSection("home")}
+            className="text-[#004B24] font-semibold hover:text-[#70E000] hover:scale-105 transition-all cursor-pointer"
           >
             Home
-          </a>
-          <a
-            href="#product"
-            className="text-[#004B24] font-semibold hover:text-[#70E000] hover:scale-105 transition-all"
+          </button>
+          <button
+            onClick={() => scrollToSection("whyus")}
+            className="text-[#004B24] font-semibold hover:text-[#70E000] hover:scale-105 transition-all cursor-pointer"
+          >
+            Why Us
+          </button>
+          <button
+            onClick={() => scrollToSection("products")}
+            className="text-[#004B24] font-semibold hover:text-[#70E000] hover:scale-105 transition-all cursor-pointer"
           >
             Products
-          </a>
+          </button>
         </div>
-        <a
-          href="#contact"
-          className="text-[#004B24] font-semibold hover:text-[#70E000] hover:scale-105 transition-all  border rounded-2xl py-2 px-8 hidden md:flex"
+        <button
+          onClick={() => scrollToSection("contact")}
+          className="text-[#004B24] font-semibold hover:text-[#70E000] hover:scale-105 transition-all cursor-pointer border-[#004B24] border-2 px-4 py-2 rounded-full hover:border-[#70E000] hidden sm:block"
         >
           Contact Us
-        </a>
+        </button>
         <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -51,30 +60,30 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <div className="md:hidden">
-          <a
-            href="#home"
+          <button
+            onClick={() => scrollToSection("home")}
             className="block text-[#004B24] hover:text-gray-400 p-2"
           >
             Home
-          </a>
-          <a
-            href="#product"
+          </button>
+          <button
+            onClick={() => scrollToSection("whyus")}
+            className="block text-[#004B24] hover:text-gray-400 p-2"
+          >
+            Why Us
+          </button>
+          <button
+            onClick={() => scrollToSection("products")}
             className="block text-[#004B24] hover:text-gray-400 p-2"
           >
             Products
-          </a>
-          <a
-            href="#about"
-            className="block text-[#004B24] hover:text-gray-400 p-2"
-          >
-            About Us
-          </a>
-          <a
-            href="#contact"
+          </button>
+          <button
+            onClick={() => scrollToSection("contact")}
             className="block text-[#004B24] hover:text-gray-400 p-2"
           >
             Contact Us
-          </a>
+          </button>
         </div>
       )}
     </nav>

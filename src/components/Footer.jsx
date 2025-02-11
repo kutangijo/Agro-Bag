@@ -1,6 +1,9 @@
 import { IoLogoWhatsapp } from "react-icons/io";
 
 const Footer = () => {
+  const scrollToSection = (id) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <footer className="bg-[#004B24] text-white py-6">
       <a
@@ -15,16 +18,31 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} Agro Bag. All rights reserved.
         </p>
         <div className="flex justify-center space-x-4">
-          <a href="#" className="hover:text-gray-400">
+          <button
+            onClick={() => scrollToSection("home")}
+            className="hover:text-[#70E000]"
+          >
             Home
-          </a>
+          </button>
 
-          <a href="#" className="hover:text-gray-400">
+          <button
+            onClick={() => scrollToSection("whyus")}
+            className="hover:text-[#70E000]"
+          >
+            Why Us
+          </button>
+          <button
+            onClick={() => scrollToSection("whyus")}
+            className="hover:text-[#70E000]"
+          >
             Products
-          </a>
-          <a href="#" className="hover:text-gray-400">
+          </button>
+          <button
+            onClick={() => scrollToSection("whyus")}
+            className="hover:text-[#70E000]"
+          >
             Contact
-          </a>
+          </button>
         </div>
       </div>
     </footer>
