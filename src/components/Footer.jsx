@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#004B24] text-white py-6">
       <a
-        href="https://wa.me/6281234567890"
+        href="https://wa.me/628982934819"
         target="_blank"
         className="fixed bottom-10 right-10 bg-[#25D366] p-4 rounded-full cursor-pointer hover:bg-[#128C7E] transition-all"
       >

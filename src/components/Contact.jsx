@@ -30,7 +30,7 @@ const Contact = () => {
       </div>
       <div className="flex justify-center items-center gap-3 flex-col sm:flex-row">
         <a
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=samisuryaperkasa@gmail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=lahirbaru.wng@gmail.com"
           target="_blank"
           className="border-2 border-[#004B24] rounded-md p-3 w-sm hover:bg-green-500 transition-all"
         >
@@ -40,12 +40,12 @@ const Contact = () => {
             </div>
             <div className="flex-row font-semibold  ">
               <h1 className="text-[#004B24]">Email</h1>
-              <p className="text-[#004B24] ">samisuryaperkasa@gmail.com</p>
+              <p className="text-[#004B24] ">lahirbaru.wng@gmail.com</p>
             </div>
           </div>
         </a>
         <a
-          href="https://wa.me/6281234567890"
+          href="https://wa.me/628982934819"
           target="_blank"
           className="border-2 border-[#004B24] rounded-md p-3 w-sm   hover:bg-green-500 transition-all"
         >
@@ -55,11 +55,11 @@ const Contact = () => {
             </div>
             <div className="flex-row font-semibold  ">
               <h1 className="text-[#004B24]">Whatsapp</h1>
-              <p className="text-[#004B24] ">+62 895-2299-2093</p>
+              <p className="text-[#004B24] ">+62 898-2934-819</p>
             </div>
           </div>
         </a>
-        <a
+        {/* <a
           href="https://maps.app.goo.gl/ABoFhDJ9iGiyu46s8"
           target="_blank"
           className="border-2 border-[#004B24] rounded-md p-3 w-sm   hover:bg-green-500 transition-all"
@@ -75,7 +75,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-        </a>
+        </a> */}
       </div>
     </div>
   );
