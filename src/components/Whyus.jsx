@@ -9,6 +9,12 @@ const images = [
   "/img/slider/plantbag1.png",
   "/img/slider/plantbag2.png",
   "/img/slider/plantbag3.png",
+  "/img/slider/plantbag4.png",
+  "/img/slider/plantbag5.png",
+  "/img/slider/plantbag6.png",
+  "/img/slider/plantbag7.png",
+  "/img/slider/plantbag8.png",
+  "/img/slider/plantbag9.png",
 ];
 
 const PlantBagSlider = () => {

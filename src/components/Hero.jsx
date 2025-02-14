@@ -31,10 +31,10 @@ const Hero = () => {
             </span>
           </a>
         </div>
-        <div className="h-xl rounded-xl sm:pt-20 relative ">
+        <div className="h-xl rounded-xl sm:pt-20 relative max-w-xl ">
           <img
             className=" rounded-xl object-cover h-full"
-            src="/img/hero.jpg"
+            src="/img/plant1.jpg"
             alt=""
           />
         </div>

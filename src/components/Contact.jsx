@@ -45,7 +45,7 @@ const Contact = () => {
           </div>
         </a>
         <a
-          href="https://wa.me/628982934819"
+          href="https://wa.me/6281228959907"
           target="_blank"
           className="border-2 border-[#004B24] rounded-md p-3 w-sm   hover:bg-green-500 transition-all"
         >
@@ -54,12 +54,12 @@ const Contact = () => {
               <FaWhatsapp size={40} color="#fff" />
             </div>
             <div className="flex-row font-semibold  ">
-              <h1 className="text-[#004B24]">Whatsapp</h1>
-              <p className="text-[#004B24] ">+62 898-2934-819</p>
+              <h1 className="text-[#004B24] text-sm">Whatsapp</h1>
+              <p className="text-[#004B24] text-sm ">+62 812-2895-9907</p>
             </div>
           </div>
         </a>
-        {/* <a
+        <div
           href="https://maps.app.goo.gl/ABoFhDJ9iGiyu46s8"
           target="_blank"
           className="border-2 border-[#004B24] rounded-md p-3 w-sm   hover:bg-green-500 transition-all"
@@ -71,11 +71,11 @@ const Contact = () => {
             <div className="flex-row font-semibold  ">
               <h1 className="text-[#004B24]">Lokasi</h1>
               <p className="text-[#004B24] ">
-                Jl. Solo-Wonogiri Km. 9 Sukoharjo
+                Ds Wonokarto, Wonogiri, Jawa Tengah
               </p>
             </div>
           </div>
-        </a> */}
+        </div>
       </div>
     </div>
   );
