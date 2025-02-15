@@ -1,9 +1,9 @@
-const Produk = () => {
+const Products = () => {
   return (
-    <div id="products" className=" sm:px-20 px-5 my-20">
+    <div id="products" className="sm:px-20 px-5 my-20">
       <div>
         <h1 className="text-center text-2xl font-bold text-[#004B24]">
-          PRODUK KAMI
+          OUR PRODUCTS
         </h1>
       </div>
 
@@ -11,21 +11,21 @@ const Produk = () => {
         <div className="sm:basis-3xl overflow-hidden rounded-xl">
           <img
             src="/img/plant1.jpg"
-            alt=""
-            className="w-full sm:h-64 object-fill  hover:scale-110 transition-all duration-700"
+            alt="Plant Bag"
+            className="w-full sm:h-64 object-fill hover:scale-110 transition-all duration-700"
           />
         </div>
         <div className="sm:basis-4xl overflow-hidden rounded-xl">
           <img
             src="/img/plant.jpg"
-            alt=""
-            className="w-full sm:h-64 object-cover hover:scale-110 transition-all duration-700 "
+            alt="Plant Bag"
+            className="w-full sm:h-64 object-cover hover:scale-110 transition-all duration-700"
           />
         </div>
         <div className="basis-6xl overflow-hidden rounded-xl">
           <img
             src="/img/plant6.jpg"
-            alt=""
+            alt="Plant Bag"
             className="min-w-72 h-64 object-cover hover:scale-110 transition-all duration-700"
           />
         </div>
@@ -34,21 +34,21 @@ const Produk = () => {
         <div className="basis-6xl overflow-hidden rounded-xl">
           <img
             src="/img/plant3.jpg"
-            alt=""
+            alt="Plant Bag"
             className="w-full h-64 object-cover hover:scale-110 transition-all duration-700"
           />
         </div>
         <div className="basis-2xl overflow-hidden rounded-xl">
           <img
             src="/img/plant5.jpg"
-            alt=""
+            alt="Plant Bag"
             className="w-full h-64 object-cover hover:scale-110 transition-all duration-700"
           />
         </div>
         <div className="basis-3xl overflow-hidden rounded-xl">
           <img
             src="/img/plant4.jpg"
-            alt=""
+            alt="Plant Bag"
             className="w-full h-64 object-cover hover:scale-110 transition-all duration-700"
           />
         </div>
@@ -57,4 +57,4 @@ const Produk = () => {
   );
 };
 
-export default Produk;
+export default Products;

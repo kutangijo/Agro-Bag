@@ -1,4 +1,5 @@
 import { IoIosArrowForward } from "react-icons/io";
+
 const Hero = () => {
   return (
     <div id="home" className="pb-20">
@@ -8,21 +9,20 @@ const Hero = () => {
             Planter Bag
           </h1>
           <h1 className="sm:text-7xl text-4xl font-bold text-[#70E000] sm:mt-1">
-            Kualitas Terbaik
+            Best Quality
           </h1>
-          <h2 className="text-2xl font-semibold text-[#004B24] sm:my-4 my-2 ">
-            Dengan Agro Bag, Tanaman Tumbuh Lebih Baik, Panen Lebih Maksimal!
+          <h2 className="text-2xl font-semibold text-[#004B24] sm:my-4 my-2">
+            With Agro Bag, Plants Grow Better, Harvest More!
           </h2>
-          <p className=" text-[#004B24] pb-10">
-            Inovasi planter bag berkualitas untuk pertumbuhan tanaman yang lebih
-            sehat dan kuat. Dibuat dari bahan premium, tahan lama, dan
-            breathable untuk hasil maksimal.Cocok untuk petani, pegiat budidaya,
-            hingga pecinta tanaman hias.Saatnya tanam lebih mudah, panen lebih
-            melimpah!
+          <p className="text-[#004B24] pb-10">
+            Innovative planter bags for healthier and stronger plant growth.
+            Made from premium, durable, and breathable materials for maximum
+            results. Perfect for farmers, cultivators, and plant enthusiasts.
+            Grow easier, harvest more!
           </p>
 
           <a
-            className="flex items-center pl-8  py-2 rounded-3xl bg-[#004B24] text-white font-semibold hover:text-[#70E000] hover:scale-105 transition-all w-42"
+            className="flex items-center pl-8 py-2 rounded-3xl bg-[#004B24] text-white font-semibold hover:text-[#70E000] hover:scale-105 transition-all w-42"
             href="#"
           >
             <h1 className="text-center">Read More</h1>
@@ -31,11 +31,11 @@ const Hero = () => {
             </span>
           </a>
         </div>
-        <div className="h-xl rounded-xl sm:pt-20 relative max-w-xl ">
+        <div className="h-xl rounded-xl sm:pt-20 relative max-w-xl">
           <img
-            className=" rounded-xl object-cover h-full"
+            className="rounded-xl object-cover h-full"
             src="/img/plant1.jpg"
-            alt=""
+            alt="Plant"
           />
         </div>
       </div>

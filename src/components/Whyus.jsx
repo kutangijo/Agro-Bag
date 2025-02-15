@@ -29,31 +29,31 @@ const PlantBagSlider = () => {
   };
 
   return (
-    <div id="whyus" className="">
+    <div id="whyus">
       <div className="bg-[#004B24] flex sm:flex-row flex-col justify-center sm:gap-40 gap-10 sm:py-5 py-5">
-        <div className="flex flex-col items-center ">
+        <div className="flex flex-col items-center">
           <RiMedalFill size={80} color="#fff" />
           <h1 className="text-white text-xl font-bold">Best Quality</h1>
         </div>
         <div className="flex flex-col items-center">
           <RiMoneyDollarCircleFill size={80} color="#fff" />
-          <h1 className="text-white text-xl font-bold">Harga Bersaing</h1>
+          <h1 className="text-white text-xl font-bold">Competitive Price</h1>
         </div>
         <div className="flex flex-col items-center">
           <TbTruckDelivery size={80} color="#fff" />
-          <h1 className="text-white text-xl font-bold">Pengiriman Cepat</h1>
+          <h1 className="text-white text-xl font-bold">Fast Delivery</h1>
         </div>
         <div className="flex flex-col items-center">
           <IoShieldCheckmarkSharp size={80} color="#fff" />
-          <h1 className="text-white text-xl font-bold">Garansi 100%</h1>
+          <h1 className="text-white text-xl font-bold">100% Guarantee</h1>
         </div>
       </div>
       <div className="mt-20 sm:px-40">
         <h1 className="text-center text-2xl font-bold text-[#004B24]">
-          MENGAPA HARUS AGRO BAG ?
+          WHY CHOOSE AGRO BAG?
         </h1>
         <div className="flex flex-col sm:flex-row justify-center items-center sm:gap-20 sm:mt-10 mx-10">
-          <div className="w-full sm:w-72 ">
+          <div className="w-full sm:w-72">
             <Slider className="text-black" {...settings}>
               {images.map((src, index) => (
                 <div
@@ -69,20 +69,20 @@ const PlantBagSlider = () => {
               ))}
             </Slider>
           </div>
-          <div className="flex flex-wrap sm:flex-row flex-col sm:gap-5 gap-2 font-semibold  text-[#004B24] w-full">
+          <div className="flex flex-wrap sm:flex-row flex-col sm:gap-5 gap-2 font-semibold text-[#004B24] w-full">
             {[
-              "Kualitas Bahan Terbaik",
-              "Dapat Dipakai Kembali",
-              "Bisa Custom Ukuran",
-              "Tidak Mudah Rusak",
-              "Praktis",
-              "Hemat Pupuk",
-              "Mudah Dibawa",
-              "Awet dan Tahan Lama",
+              "Best Quality Material",
+              "Reusable",
+              "Customizable Sizes",
+              "Durable",
+              "Practical",
+              "Fertilizer Efficient",
+              "Easy to Carry",
+              "Long-lasting",
             ].map((text, index) => (
               <div
                 key={index}
-                className="px-4 py-2 border-2 border-[#004B24]  rounded-xl sm:hover:scale-105 transition-all"
+                className="px-4 py-2 border-2 border-[#004B24] rounded-xl sm:hover:scale-105 transition-all"
               >
                 {text}
               </div>
