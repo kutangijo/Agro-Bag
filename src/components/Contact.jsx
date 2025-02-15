@@ -67,7 +67,7 @@ const Contact = () => {
             <div className="flex-row font-semibold">
               <h1 className="text-[#004B24] text-sm">Location</h1>
               <p className="text-[#004B24] text-sm">
-                Wonokarto Village, Wonogiri, Central Java
+                Wonokarto RT. 001 RW. 001, Central Java, Indonesia
               </p>
             </div>
           </div>
